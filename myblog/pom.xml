@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.shore</groupId>
+    <artifactId>myblog</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <modules>
+        <module>api</module>
+        <module>common</module>
+        <module>controller</module>
+        <module>service</module>
+    </modules>
+    <properties>
+        <spring.boot.starter.web.version>2.6.7</spring.boot.starter.web.version>
+        <lombok.version>1.18.24</lombok.version>
+        <com.shore.api.version>1.0</com.shore.api.version>
+        <com.shore.common.version>1.0</com.shore.common.version>
+        <com.shore.controller.version>1.0</com.shore.controller.version>
+        <com.shore.service.version>1.0</com.shore.service.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring.boot.starter.web.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.shore</groupId>
+                <artifactId>api</artifactId>
+                <version>${com.shore.api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.shore</groupId>
+                <artifactId>api</artifactId>
+                <version>${com.shore.common.version.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.shore</groupId>
+                <artifactId>api</artifactId>
+                <version>${com.shore.controller.version.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.shore</groupId>
+                <artifactId>api</artifactId>
+                <version>${com.shore.service.version.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>
