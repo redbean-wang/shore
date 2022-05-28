@@ -1,4 +1,4 @@
-package com.shore;
+package com.shore.model;
 
 import lombok.Data;
 
@@ -8,5 +8,9 @@ public class CityDO {
     private String Name;
     private String CountryCode;
     private String District;
-    private String Population;
+    private Long Population;
+
+    public CityDO() {
+        super();
+    }
 }

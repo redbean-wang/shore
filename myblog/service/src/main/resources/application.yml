@@ -1,14 +1,23 @@
 spring:
   application:
     name: service
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/world?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
     username: root
     password: 4313
-  mvc:
-    pathmatch:
-      matching-strategy: ant_path_matcher
 
 mybatis-plus:
   mapper-locations: classpath*:/mapper/*.xml
+
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Simple example API
+  description: An API to illustrate Swagger
+
+enable:
+  swagger: true

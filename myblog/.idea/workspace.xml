@@ -2,23 +2,424 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34729960-ef1f-4503-8f31-779ef0f1afee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/shore/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/enums/ErrorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/factory/BaseResultFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/factory/ResultFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/result/BaseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/utils/CollectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/src/main/java/com/shore/MyBlogApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/src/main/java/com/shore/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/shore/service/impl/HelloServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/.idea/blog-vue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/assets/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/assets/css/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/assets/css/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/assets/css/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/assets/css/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/assets/css/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/assets/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/assets/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/assets/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/layout/components/NavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/layout/components/SideBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/layout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/about/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/article/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/article/ArticleList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/category/Category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/comment/Comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/friendLink/FriendLink.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/log/Operation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/menu/Menu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/message/Message.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/resource/Resource.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/role/Role.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/setting/Setting.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/tag/Tag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/user/Online.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/src/views/user/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/admin/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/public/ribbon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/css/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/css/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/css/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/css/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/css/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/css/markdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/img/alipay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/img/ds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/img/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/assets/js/emoji.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/ArticleList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/BackTop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/ChatRoom.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/Comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/Emoji.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/OauthLogin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/Paging.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/Reply.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/layout/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/layout/SideNavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/layout/TopNavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/model/EmailModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/model/ForgetModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/model/LoginModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/model/RegisterModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/model/SearchModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/toast/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/components/toast/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/plugins/vuetify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/views/about/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/views/archive/Archive.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/views/article/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/views/category/Category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/views/link/Link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/views/message/Messsage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/views/tag/Tag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/src/views/user/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-vue/blog/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/src/main/java/com/shore/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/src/main/java/com/shore/processor/interceptor/ExceptionInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/shore/mapper/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/shore/model/CityDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/resources/mapper/TestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-mysql8.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/blog-springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/BlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/annotation/OptLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/config/ElasticSearchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/constant/CommonConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/constant/MQPrefixConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/constant/OptTypeConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/constant/RedisPrefixConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/constant/StatusConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/BlogInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/ControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/FriendLinkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/ResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/TagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/UserAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/ArticleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/ArticleTagDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/ChatRecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/CommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/ElasticsearchDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/FriendLinkDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/MenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/MessageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/OperationLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/ResourceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/RoleMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/RoleResourceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/TagDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/UniqueViewDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/UserAuthDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/UserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dao/UserRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ArchiveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ArticleBackDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ArticleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ArticleHomeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ArticleOptionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ArticlePaginationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ArticlePreviewDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ArticlePreviewListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ArticleRankDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ArticleRecommendDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ArticleSearchDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/BlogBackInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/BlogHomeInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/CategoryBackDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ChatRecordDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/CommentBackDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/CommentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/EmailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/FriendLinkBackDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/FriendLinkDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/MenuDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/MessageBackDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/MessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/OperationLogDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/PageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/RecallMessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ReplyCountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ReplyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/ResourceDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/TagDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/UniqueViewDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/UrlRoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/UserBackDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/UserInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/UserLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/UserMenuDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/UserOnlineDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/UserRoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/WebsocketMessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/dto/labelOptionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/ArticleTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/ChatRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/FriendLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/OperationLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/RoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/RoleResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/UniqueView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/UserAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/enums/ChatTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/enums/FilePathEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/enums/LoginTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/enums/OptLogTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/enums/RoleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/exception/ServeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/handler/AccessDecisionManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/handler/AccessDeniedHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/handler/AuthenticationEntryPointImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/handler/AuthenticationFailHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/handler/AuthenticationSuccessHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/handler/EmailReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/handler/FilterInvocationSecurityMetadataSourceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/handler/LogoutSuccessHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/handler/MaxWellReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/handler/OptLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/handler/ServletRequestListenerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/ArticleTagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/BlogInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/ChatRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/FriendLinkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/OperationLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/ResourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/RoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/RoleResourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/UniqueViewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/UserAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/UserInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/ArticleTagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/BlogInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/ChatRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/FriendLinkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/OperationLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/ResourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/RoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/RoleResourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/UniqueViewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/UserAuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/service/impl/WebSocketServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/utils/BeanCopyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/utils/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/utils/HTMLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/utils/IpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/utils/OSSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/utils/UserUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/utils/WebSocketUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/ArticleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/CategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/CommentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/ConditionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/DeleteVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/EmailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/FriendLinkVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/MessageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/PasswordVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/ResourceVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/RoleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/TagVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/UserInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/UserRoleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/java/com/minzheng/blog/vo/VoiceVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/resources/mapper/ArticleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/resources/mapper/CategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/resources/mapper/CommentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/resources/mapper/MenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/resources/mapper/ResourceDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/resources/mapper/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/resources/mapper/UniqueViewDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/resources/mapper/UserAuthDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-springboot/src/main/resources/mapper/UserRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/assets/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/assets/css/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/assets/css/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/assets/css/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/assets/css/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/assets/css/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/assets/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/assets/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/assets/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/layout/components/NavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/layout/components/SideBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/layout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/about/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/article/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/article/ArticleList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/category/Category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/comment/Comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/friendLink/FriendLink.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/log/Operation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/login/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/menu/Menu.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/message/Message.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/resource/Resource.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/role/Role.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/setting/Setting.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/tag/Tag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/user/Online.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/src/views/user/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/admin/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/public/ribbon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/css/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/css/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/css/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/css/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/css/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/css/markdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/img/alipay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/img/ds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/img/wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/assets/js/emoji.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/ArticleList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/BackTop.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/ChatRoom.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/Comment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/Emoji.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/OauthLogin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/Paging.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/Reply.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/layout/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/layout/SideNavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/layout/TopNavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/model/EmailModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/model/ForgetModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/model/LoginModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/model/RegisterModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/model/SearchModel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/toast/Toast.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/components/toast/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/plugins/vuetify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/views/about/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/views/archive/Archive.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/views/article/Article.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/views/category/Category.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/views/home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/views/link/Link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/views/message/Messsage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/views/tag/Tag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/src/views/user/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thatblog-develop/blog-vue/blog/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../vue-main.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/shore/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/shore/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/shore/factory/BaseResultFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/factory/BaseResultFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/controller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/src/main/java/com/shore/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/main/java/com/shore/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/shore/service/impl/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/shore/service/impl/HelloServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +429,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -62,19 +463,29 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog-vue" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\Idea\shore\myblog\service\src\main\resources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\Idea\shore\myblog" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MyBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="controller" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shore.*" />
+          <option name="PATTERN" value="com.shore.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,7 +512,7 @@
       <updated>1653707845912</updated>
       <workItem from="1653707848702" duration="1497000" />
       <workItem from="1653709377539" duration="372000" />
-      <workItem from="1653709768672" duration="3508000" />
+      <workItem from="1653709768672" duration="17745000" />
     </task>
     <task id="LOCAL-00001" summary="myblog">
       <created>1653708306007</created>
@@ -117,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653708342409</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="myblog">
+      <created>1653713400960</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653713400960</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,62 +547,66 @@
     <option name="LAST_COMMIT_MESSAGE" value="myblog" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="67" key="#Project_Structure" timestamp="1653707892056">
+    <state x="361" y="67" key="#Project_Structure" timestamp="1653736045401">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="67" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1653707892056" />
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1653712964013">
+    <state x="361" y="67" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1653736045401" />
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1653727914385">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1653712964013" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1653708339873">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1653727914385" />
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1653713398625">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1653708339873" />
-    <state x="549" y="99" key="FileChooserDialogImpl" timestamp="1653709721082">
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1653713398625" />
+    <state x="549" y="99" key="FileChooserDialogImpl" timestamp="1653738790009">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="99" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1653709721082" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1653713325442">
+    <state x="549" y="99" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1653738790009" />
+    <state width="1493" height="290" key="GridCell.Tab.0.bottom" timestamp="1653737546110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1653713325442">
+    <state width="1493" height="290" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653737546110" />
+    <state width="1493" height="290" key="GridCell.Tab.0.center" timestamp="1653737546110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1653713325442">
+    <state width="1493" height="290" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653737546110" />
+    <state width="1493" height="290" key="GridCell.Tab.0.left" timestamp="1653737546110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1653713325442">
+    <state width="1493" height="290" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653737546110" />
+    <state width="1493" height="290" key="GridCell.Tab.0.right" timestamp="1653737546110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1653713325442">
+    <state width="1493" height="290" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653737546110" />
+    <state width="1493" height="290" key="GridCell.Tab.1.bottom" timestamp="1653737546110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
-    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1653713325442">
+    <state width="1493" height="290" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653737546110" />
+    <state width="1493" height="290" key="GridCell.Tab.1.center" timestamp="1653737546110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
-    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1653713325442">
+    <state width="1493" height="290" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1653737546110" />
+    <state width="1493" height="290" key="GridCell.Tab.1.left" timestamp="1653737546110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
-    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1653713325442">
+    <state width="1493" height="290" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1653737546110" />
+    <state width="1493" height="290" key="GridCell.Tab.1.right" timestamp="1653737546110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1653709824886">
+    <state width="1493" height="290" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653737546110" />
+    <state x="299" y="63" key="Maven.ArtifactSearchDialog" timestamp="1653733901879">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1653709824886" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1653708352852">
+    <state x="299" y="63" key="Maven.ArtifactSearchDialog/0.0.1536.816@0.0.1536.816" timestamp="1653733901879" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1653736260275">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653708352852" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1653736260275" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1653713405947">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653713405947" />
     <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1653709768568">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

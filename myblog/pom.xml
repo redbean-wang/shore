@@ -15,12 +15,17 @@
         <module>service</module>
     </modules>
     <properties>
-        <spring.boot.starter.web.version>2.6.7</spring.boot.starter.web.version>
+        <spring.boot.starter.web.version>2.6.4</spring.boot.starter.web.version>
         <lombok.version>1.18.24</lombok.version>
         <com.shore.api.version>1.0</com.shore.api.version>
         <com.shore.common.version>1.0</com.shore.common.version>
         <com.shore.controller.version>1.0</com.shore.controller.version>
         <com.shore.service.version>1.0</com.shore.service.version>
+        <mybatis.plus.starter.version>3.5.1</mybatis.plus.starter.version>
+        <mysql.version>8.0.22</mysql.version>
+        <swagger.ui.version>2.7.0</swagger.ui.version>
+        <swgger2.version>2.7.0</swgger2.version>
+        <springfox.boot.starter.version>3.0.0</springfox.boot.starter.version>
     </properties>
 
     <dependencyManagement>
@@ -54,6 +59,31 @@
                 <groupId>com.shore</groupId>
                 <artifactId>service</artifactId>
                 <version>${com.shore.service.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis.plus.starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>io.springfox</groupId>-->
+<!--                <artifactId>springfox-swagger-ui</artifactId>-->
+<!--                <version>${swagger.ui.version}</version>-->
+<!--            </dependency>-->
+<!--            <dependency>-->
+<!--                <groupId>io.springfox</groupId>-->
+<!--                <artifactId>springfox-swagger2</artifactId>-->
+<!--                <version>${swgger2.version}</version>-->
+<!--            </dependency>-->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-boot-starter</artifactId>
+                <version>${springfox.boot.starter.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

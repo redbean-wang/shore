@@ -14,7 +14,7 @@ public class BaseResultFactory {
     }
 
     public static BaseResult success(Object data) {
-        return success().builder().data(data).build();
+        return BaseResult.builder().success(true).code("200").message("success").data(data).build();
     }
 
     /**
