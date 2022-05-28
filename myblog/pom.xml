@@ -42,18 +42,18 @@
             </dependency>
             <dependency>
                 <groupId>com.shore</groupId>
-                <artifactId>api</artifactId>
-                <version>${com.shore.common.version.version}</version>
+                <artifactId>common</artifactId>
+                <version>${com.shore.common.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.shore</groupId>
-                <artifactId>api</artifactId>
-                <version>${com.shore.controller.version.version}</version>
+                <artifactId>controller</artifactId>
+                <version>${com.shore.controller.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.shore</groupId>
-                <artifactId>api</artifactId>
-                <version>${com.shore.service.version.version}</version>
+                <artifactId>service</artifactId>
+                <version>${com.shore.service.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

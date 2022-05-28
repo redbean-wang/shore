@@ -2,20 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34729960-ef1f-4503-8f31-779ef0f1afee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myblog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/shore/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/enums/ErrorEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/factory/BaseResultFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/factory/ResultFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/result/BaseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/utils/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/shore/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/src/main/java/com/shore/MyBlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/src/main/java/com/shore/controller/HelloController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../shore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/shore/service/impl/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/controller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -40,13 +57,37 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MyBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="controller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shore.MyBlogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MyBlogApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -58,8 +99,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653707845912</updated>
-      <workItem from="1653707848702" duration="406000" />
+      <workItem from="1653707848702" duration="1497000" />
+      <workItem from="1653709377539" duration="372000" />
+      <workItem from="1653709768672" duration="3508000" />
     </task>
+    <task id="LOCAL-00001" summary="myblog">
+      <created>1653708306007</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653708306007</updated>
+    </task>
+    <task id="LOCAL-00002" summary="myblog">
+      <created>1653708342409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653708342409</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,27 +125,81 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="myblog" />
+    <option name="LAST_COMMIT_MESSAGE" value="myblog" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="67" key="#Project_Structure" timestamp="1653707892056">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="361" y="67" key="#Project_Structure/0.0.1536.816@0.0.1536.816" timestamp="1653707892056" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1653708302930">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1653712964013">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1653708302930" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1653708313388">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1653712964013" />
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1653708339873">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653708313388" />
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1653707849348">
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1653708339873" />
+    <state x="549" y="99" key="FileChooserDialogImpl" timestamp="1653709721082">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1653707849348" />
+    <state x="549" y="99" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1653709721082" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1653713325442">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1653713325442">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1653713325442">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1653713325442">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom" timestamp="1653713325442">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
+    <state width="1493" height="208" key="GridCell.Tab.1.center" timestamp="1653713325442">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
+    <state width="1493" height="208" key="GridCell.Tab.1.left" timestamp="1653713325442">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
+    <state width="1493" height="208" key="GridCell.Tab.1.right" timestamp="1653713325442">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1653713325442" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1653709824886">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1653709824886" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1653708352852">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1653708352852" />
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1653709768568">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1653709768568" />
+    <state x="470" y="199" key="git4idea.merge.GitPullDialog" timestamp="1653708346658">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="470" y="199" key="git4idea.merge.GitPullDialog/0.0.1536.816@0.0.1536.816" timestamp="1653708346658" />
     <state x="178" y="103" key="new project wizard" timestamp="1653707943879">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="178" y="103" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1653707943879" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1653713244632">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1653713244632" />
   </component>
 </project>
